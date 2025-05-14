@@ -1,7 +1,5 @@
 {
   "scripts": {
-    "example1": "ts-node example1/index.ts",
-    "example2": "ts-node example2/index.ts",
     "example3": "ts-node example3/index.ts"
   },
   "dependencies": {

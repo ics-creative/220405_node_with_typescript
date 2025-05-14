@@ -1,7 +1,5 @@
 {
   "scripts": {
-    "example1": "tsx example1/index.ts",
-    "example2": "tsx example2/index.ts",
     "example3": "tsx example3/index.ts",
     "typecheck": "tsc --noEmit"
   },
