@@ -7,3 +7,6 @@ Thumbs.db
 node_modules
 /package-lock.json
 /yarn.lock
+/example-tsx/package-lock.json
+/example-ts-node/package-lock.json
+/example-nodejs/package-lock.json

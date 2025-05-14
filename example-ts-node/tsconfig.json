@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    // モジュールシステム
     "module": "NodeNext",
-    "strict": true,
+    // .ts拡張子を持つファイルのインポートを可能に
     "allowImportingTsExtensions": true,
+    // すべての厳格な型チェックオプションを有効に
+    "strict": true
   }
 }

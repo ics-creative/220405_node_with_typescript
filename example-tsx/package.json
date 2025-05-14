@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "example3": "tsx example3/index.ts",
+    "start": "tsx example3/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "private": true,
-  "devDependencies": {
+  "dependencies": {
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18"
   }
 }
