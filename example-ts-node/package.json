@@ -1,16 +1,15 @@
 {
-  "dependencies": {
-    "typescript": "^5.8.3",
-    "ts-node": "^10.9.2"
-  },
   "scripts": {
     "example1": "ts-node example1/index.ts",
     "example2": "ts-node example2/index.ts",
     "example3": "ts-node example3/index.ts"
   },
+  "dependencies": {
+    "typescript": "^5.8.3",
+    "ts-node": "^10.9.2"
+  },
   "devDependencies": {
     "@types/node": "^22.15.18"
   },
-  "private": true,
-  "type": "module"
+  "private": true
 }

@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "example1": "node example1/index.ts",
+    "example2": "node example2/index.ts",
+    "example3": "node example3/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

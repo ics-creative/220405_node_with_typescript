@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "example1": "tsx example1/index.ts",
+    "example2": "tsx example2/index.ts",
+    "example3": "tsx example3/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true,
+  "devDependencies": {
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
