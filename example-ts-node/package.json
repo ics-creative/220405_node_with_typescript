@@ -1,13 +1,15 @@
 {
   "scripts": {
-    "start": "ts-node example3/index.ts"
+    "start": "ts-node example3/index.ts",
+    "typecheck": "node_modules/@typescript/native/bin/tsc --noEmit"
   },
   "dependencies": {
-    "typescript": "^5.8.3",
+    "typescript": "^6.0.2",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@types/node": "^22.15.18"
+    "@types/node": "^26.1.1",
+    "@typescript/native": "npm:typescript@^7.0.2"
   },
   "private": true
 }

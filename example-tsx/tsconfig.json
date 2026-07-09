@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    // Node.jsのESM/CJS解決に合わせる
     "module": "NodeNext",
+    // .ts拡張子を持つファイルのインポートを可能に
     "allowImportingTsExtensions": true,
-    "strict": true,
+    // TypeScript 6以降はtypesの既定値が[]のため、Node.jsの型を明示
+    "types": ["node"]
   }
 }
